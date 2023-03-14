@@ -1,4 +1,4 @@
-# Housing-Prediction
+# Housing Prices Prediction
 
 ## Dataset and Algorithm
 This project is based on a **multivariate regression model** that can predict housing prices using the following independent variables: *lotsize*, *bedrooms*, *bathrooms*, *number of stories*, *number of garage places*, *recreation room*, *full basement*, and *air-conditioning*. 
