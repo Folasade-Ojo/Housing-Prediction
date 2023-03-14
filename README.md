@@ -18,7 +18,7 @@ Additionally, recommendations will be made for the necessary next steps to take.
 
 The intercept = 68860.08
 
-## The Effects of the Coefficients
+### The Effects of the Coefficients
 All the independent variables have a positive effect/weight on the output variable, price because their coefficients are positive. Consequently, for every unit increase in these variables, there is a corresponding increase in price.
 *  Iotsize:  This has the highest weight and effect on the output variable. For every unit increase in the lot size, there is a corresponding 8634.48 dollar increase in price.
 - Bedrooms: This has the least effect on the output variable. For every unit increase in the number of bedrooms, there is a corresponding 1368.30 dollar increase in price.
