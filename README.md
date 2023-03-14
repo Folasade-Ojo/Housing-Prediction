@@ -5,7 +5,7 @@ This project is based on a **multivariate regression model** that can predict ho
 
 **Dependent Variable**: Price *in US dollars*
 
-The dataset has 546 records.
+The dataset has 546 records and all the variables are continuous.
 
 Additionally, recommendations will be made for the necessary next steps to take.
 
