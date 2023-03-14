@@ -5,6 +5,8 @@ This project is based on a **multivariate regression model** that can predict ho
 
 **Dependent Variable**: Price *in US dollars*
 
+The dataset has 546 records.
+
 Additionally, recommendations will be made for the necessary next steps to take.
 
 ## Written form of the Regression Model
