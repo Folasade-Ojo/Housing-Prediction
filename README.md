@@ -19,7 +19,7 @@ Additionally, recommendations will be made for the necessary next steps to take.
 The intercept = 68860.08
 
 ### The Effects of the Coefficients
-All the independent variables have a positive effect/weight on the output variable, price because their coefficients are positive. Consequently, for every unit increase in these variables, there is a corresponding increase in price.
+All the independent variables have a positive effect/weight on the output variable, price. Consequently, for every unit increase in these variables, there is a corresponding increase in price.
 *  Iotsize:  This has the highest weight and effect on the output variable. For every unit increase in the lot size, there is a corresponding 8634.48 dollar increase in price.
 - Bedrooms: This has the least effect on the output variable. For every unit increase in the number of bedrooms, there is a corresponding 1368.30 dollar increase in price.
 + Bathrms: The number of bathrooms has a positive weight of 7127.52 on price.
@@ -31,7 +31,7 @@ All the independent variables have a positive effect/weight on the output variab
 
 ## Model Outputs and Metrics Explanation
 * **Mean**: 68121.6
-* **Adjusted R2**: 53%. This implies that the model can only explain about 53% of the variability in the output variable (price) and this implies that the model does not have a good fit. The R2 is not considered since this is a multivariate model.
+* **Adjusted R2**: 53%. This implies that the model can only explain about 53% of the variability in the output variable (price) and does not have a good fit. The R2 is not considered since this is a multivariate model.
 + **MAE**: 12127.85. This value is greater than 10% of the mean.
 - **RMSE**: 15921.56. The root mean square error of the model is also greater than 10% of the mean.
 Since both the MAE and the RMSE are not within the 10% range, it implies that there is a large variance and an indication of the potential for outliers and skewness.
@@ -40,9 +40,9 @@ Consequently, this algorithm is inaccurate and not viable.
 
 ## Recommendations
 * **Improve normality using regularization or Yeo-Johnson transformation**
-Further analysis using a histogram showed that the continuous independent variables in our dataset were found to have a skewed distribution, which can negatively impact the performance of a linear regression model. To address this issue, we can use one of the transformation techniques to normalize the distribution depending on how skewed the dataset is.
+Further analysis using a histogram showed that the continuous independent variables in the dataset were found to have a skewed distribution, which can negatively impact the performance of a linear regression model. To address this issue, one of the transformation techniques can be implemented to normalize the distribution depending on skewness.
 + **Correlation Feature Selection**
-This technique can be used to choose the most important variables that will improve this model. This will be useful in selecting the features that have a high enough correlation with the output variable. With the newly selected features, a new model can be created which may turn out to be an optimized one in comparison to what we currently have.
+This technique can be used to choose the most important variables that will improve the model. This will be useful in selecting the features that have a high enough correlation with the output variable. With the newly selected features, a new model can be created which may turn out to be an optimized one in comparison to the base model.
 
 
 
