@@ -19,15 +19,7 @@ Additionally, recommendations will be made for the necessary next steps to take.
 The intercept = 68860.08
 
 ### The Effects of the Coefficients
-All the independent variables have a positive effect/weight on the output variable, price. Consequently, for every unit increase in these variables, there is a corresponding increase in price.
-*  Iotsize:  This has the highest weight and effect on the output variable. For every unit increase in the lot size, there is a corresponding 8634.48 dollar increase in price.
-- Bedrooms: This has the least effect on the output variable. For every unit increase in the number of bedrooms, there is a corresponding 1368.30 dollar increase in price.
-+ Bathrms: The number of bathrooms has a positive weight of 7127.52 on price.
-* Stories: The number of stories has a positive weight of 6567.39 on price.
-+ Garagepl: The number of garage places has a positive weight of 4597.37 on price.
-- Recroom: When recreation room = “yes”, there is a corresponding 2054.13 dollar increase in price.
-+ Fullbase: When there is a full basement, there is a corresponding 3661.40 dollar increase in price. 
-* Airco: When there is an air conditioning unit, there is a corresponding 5736.78 dollar increase in price.
+All the independent variables have a positive effect/weight on the output variable, price. Consequently, for every unit increase in these variables, there is a corresponding increase in price. Iotsize, however, has the highest weight and effect on the output variable. For every unit increase in the lot size, there is a corresponding 8634.48 dollar increase in price. On the other hand, bedrooms, has the least effect on the output variable. 
 
 ## Model Outputs and Metrics Explanation
 * **Mean**: 68121.6
