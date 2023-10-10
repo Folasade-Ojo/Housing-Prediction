@@ -28,8 +28,6 @@ All the independent variables have a positive effect/weight on the output variab
 - **RMSE**: 15921.56. The root mean square error of the model is also greater than 10% of the mean.
 Since both the MAE and the RMSE are not within the 10% range, it implies that there is a large variance and an indication of the potential for outliers and skewness.
 
-Consequently, this algorithm is inaccurate and not viable.
-
 ## Recommendations
 * **Improve normality using regularization or Yeo-Johnson transformation**
 Further analysis using a histogram showed that the continuous independent variables in the dataset were found to have a skewed distribution, which can negatively impact the performance of a linear regression model. To address this issue, one of the transformation techniques can be implemented to normalize the distribution depending on skewness.
